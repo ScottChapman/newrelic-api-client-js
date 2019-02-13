@@ -107,7 +107,6 @@
     },
     "alertsChannels": {
       "createRead": "https://api.newrelic.com/v2/alerts_channels.json",
-      "create": "https://api.newrelic.com/v2/alerts_channels.json",
       "delete": "https://api.newrelic.com/v2/alerts_channels/{channel_id}.json"
     },
     "alertsPolicyChannels": {
