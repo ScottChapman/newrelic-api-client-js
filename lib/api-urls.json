@@ -76,10 +76,10 @@
       "create": "https://api.newrelic.com/v2/alerts_conditions/policies/{policy_id}.json",
       "updateDelete": "https://api.newrelic.com/v2/alerts_conditions/{condition_id}.json'"
     },
-    "infrastructureAlertsConditions": {
+    "alertsInfrastructureConditions": {
       "list": "https://infra-api.newrelic.com/v2/alerts/conditions",
       "create": "https://infra-api.newrelic.com/v2/alerts/conditions",
-      "updateDelete": "https://infra-api.newrelic.com/v2/alerts/conditions"
+      "updateDelete": "https://infra-api.newrelic.com/v2/alerts/conditions/{condition-id}"
     },
     "alertsPluginConditions": {
       "list": "https://api.newrelic.com/v2/alerts_plugins_conditions.json",
