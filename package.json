@@ -8,7 +8,8 @@
   "dependencies": {
     "config": "^1.21.0",
     "lodash": "4.17.11",
-    "request": "2.88.0"
+    "request": "2.88.0",
+    "request-promise-native": "^1.0.7"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
